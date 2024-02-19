@@ -44,17 +44,17 @@ export default function Position() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#FF0000',
+        backgroundColor: '#7FFFD4',
         padding: 5,
     },
     coords: {
-        flex: 1,
-        backgroundColor: '#FF0000',
+        
+        backgroundColor: '#7FFFD4',
         padding: 5,
     },
     message: {
-        flex: 1,
-        backgroundColor: '#FF0000',
-        padding: 5,
+       
+        backgroundColor: '#7FFFD4',
+        
     },
 });
