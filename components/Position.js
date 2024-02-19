@@ -35,8 +35,10 @@ export default function Position() {
     return (
         <View>
             <Text style={styles.coords}>{latitude.toFixed(3)},{longitude.toFixed(3)}</Text>
-            <Text style={styles.message}> {message}</Text>
-            {isLoading === false && <Weather latitude={latitude} longitude={longitude} />}
+            <Text style={styles.message}>{message}</Text>
+            {isLoading === false && 
+                <Weather latitude={latitude} longitude={longitude} />
+                }
         </View>
     );
 }
